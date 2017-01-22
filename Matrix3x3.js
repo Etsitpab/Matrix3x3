@@ -22,6 +22,10 @@
          return mOut;
      };
 
+     Matrix.prototype.getData = function () {
+        return this.data;
+     };
+
      Matrix.prototype.det = function () {
          var d = this.data;
          return d[0] * d[4] * d[8] + d[1] * d[5] * d[6] +
