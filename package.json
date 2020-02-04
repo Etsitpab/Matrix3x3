@@ -1,0 +1,22 @@
+{
+    "name": "@etsitpab/matrix3x3",
+    "description": "Minimal class to do linear algebra with 3x3 matrices.",
+    "author": "Baptiste Mazin",
+    "license": "ISC",
+    "repository": "git@bitbucket.org:baptiste_mazin/matrix3x3.git",
+    "version": "1.0.0",
+    "keywords": [],
+    "type": "module",
+    "main": "./src/Matrix3x3.js",
+    "exports": "./src/Matrix3x3.js",
+    "scripts": {
+        "test": "jest --coverage",
+        "clean": "rm -rf package-lock.json node_modules",
+        "console": "node --input-type=module --eval \"import Matrix3x3 from '@etsitpab/matrix3x3'; console.log(Matrix3x3);\""
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@babel/preset-env": "^7.8.4",
+        "jest": "^25.1.0"
+    }
+}
